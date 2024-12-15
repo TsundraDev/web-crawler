@@ -98,7 +98,7 @@ class WebCrawler:
             self.visit()
             counter += 1
             if counter % self. save_counter == 0:
-                self.save(f"checkpoint/url_checkpoint_{counter}.txt")
+                self.save(f"url_checkpoint_{counter}.txt")
             self.check_trap()
 
     def save(self, filename):
