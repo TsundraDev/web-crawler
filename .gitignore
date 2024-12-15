@@ -2,4 +2,4 @@
 __pycache__
 
 # Ignore checkpoints put in place
-checkpoint
+url_checkpoint_*.txt
